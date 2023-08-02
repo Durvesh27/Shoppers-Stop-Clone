@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.profile{
+width: 83%; 
+margin: auto;
+display: flex;
+justify-content: space-between;
+/* height:30px; */
+/* border: 1px solid red; */
+padding-top: 20px;
+/* background-color: #F9F9F9; */
+/* background-color: cyan; */
+}
+
+.profile1{
+    width: 24%;
+    margin-top: 20px;
+/* border: 1px solid red; */
+}
+.profile2{
+    width: 72%;
+/* border: 1px solid red; */
+padding: 20px
+}
+.profile11{
+background: linear-gradient(to right,#ff5d3b 0,#ff2c65 100%);
+padding: 20px;
+color: white;
+font-size: 13px;
+display: flex;
+/* overflow: hidden; */
+box-sizing: border-box;
+}
+.user-img{
+    width: 45px;
+    height:45px;
+    border-radius: 50%;
+    margin-top: 7px;
+    background-color: white;
+    margin-right: 20px;
+    box-sizing: border-box;
+  
+}
+.profile12{
+    padding: 12px 0;
+    text-align: center;
+    font-size: 12px;
+    margin: 5px 0;
+    background-color: white;
+}
+.profile13{
+padding: 10px;
+background-color: white;
+}
+.profile-13-line{
+    padding: 15px;
+    font-size: 14px;
+    border-bottom: 1px solid grey;
+}
+.profile14{
+    width: 100%;
+}
+.profile14-flex{
+    display: flex;
+    font-size: 14px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.edit-btn{
+background: linear-gradient(to right,#ff5d3b 0,#ff2c65 100%);
+color: white;
+padding: 10px 35px;
+font-weight: 600;
+border: none;
+text-transform: uppercase;
+margin-top: 20px;
+}
